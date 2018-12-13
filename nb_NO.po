@@ -1,0 +1,1427 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: YOURLS 1.7\n"
+"POT-Creation-Date: 2014-01-11 11:50+0100\n"
+"PO-Revision-Date: 2018-12-14 00:09+0100\n"
+"Last-Translator: Ozh <ozh[at]ozh.org>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.1.1\n"
+"X-Poedit-KeywordsList: yourls__;yourls_e;yourls_s;yourls_se;"
+"yourls_esc_attr__;yourls_esc_html__;yourls_x;yourls_ex;yourls_esc_attr_x;"
+"yourls_esc_html_x;yourls_n:1,2;yourls_nx:1,2;yourls_n_noop:1,2;"
+"yourls_nx_noop:1,2\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"Language: nb_NO\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: yourls-infos.php:204
+#, php-format
+msgid "Statistics for %s"
+msgstr "Statistikk for %s"
+
+#: yourls-infos.php:211 admin/index.php:15 admin/index.php:34
+#: admin/index.php:93 includes/functions-html.php:209
+#: includes/functions-html.php:221 includes/functions-html.php:464
+#: includes/functions-html.php:626
+msgid "Short URL"
+msgstr "Kort URL"
+
+#: yourls-infos.php:227
+msgid "Aggregate stats for duplicate short URLs"
+msgstr "Aggregert statistikk for duplikate korte URLer"
+
+#: yourls-infos.php:229 includes/functions-html.php:464
+msgid "Long URL"
+msgstr "Lang URL"
+
+#: yourls-infos.php:235 yourls-infos.php:246
+msgid "Traffic statistics"
+msgstr "Trafikkstatistikk"
+
+#: yourls-infos.php:236 yourls-infos.php:432
+msgid "Traffic location"
+msgstr "Trafikklokasjon"
+
+#: yourls-infos.php:237 yourls-infos.php:469
+msgid "Traffic sources"
+msgstr "Trafikkilde"
+
+#: yourls-infos.php:239 yourls-infos.php:539 includes/functions-html.php:505
+#: includes/functions-html.php:506
+msgid "Share"
+msgstr "Del"
+
+#: yourls-infos.php:254 yourls-infos.php:294
+msgid "Last 24 hours"
+msgstr "Siste 24 timer"
+
+#: yourls-infos.php:255 yourls-infos.php:296
+msgid "Last 7 days"
+msgstr "Siste 7 dager"
+
+#: yourls-infos.php:256 yourls-infos.php:298
+msgid "Last 30 days"
+msgstr "Siste 30 dager"
+
+#: yourls-infos.php:257 yourls-infos.php:300
+msgid "All time"
+msgstr "All tid"
+
+#: yourls-infos.php:309
+#, php-format
+msgid "Number of hits : %s"
+msgstr "Antall treff: %s"
+
+#: yourls-infos.php:332
+msgid "Historical click count"
+msgstr "Historisk antall klikk"
+
+#: yourls-infos.php:338
+#, php-format
+msgid "about 1 day ago"
+msgid_plural "about %s days ago"
+msgstr[0] "ca 1 dag siden"
+msgstr[1] "ca %s dager siden"
+
+#. //translators: eg Short URL created on March 23rd 1972
+#: yourls-infos.php:341
+#, php-format
+msgid "Short URL created on %s"
+msgstr "Kort URL laget %s"
+
+#: yourls-infos.php:356 yourls-infos.php:363
+#, php-format
+msgid "%s per day"
+msgstr "%s per dag"
+
+#: yourls-infos.php:359
+#, php-format
+msgid "%s per hour"
+msgstr "%s per time"
+
+#: yourls-infos.php:366
+#, php-format
+msgid "%s hit"
+msgid_plural "%s hits"
+msgstr[0] "%s treff"
+msgstr[1] "%s treff"
+
+#: yourls-infos.php:373
+msgid "Best day"
+msgstr "Beste dag"
+
+#. //translators: eg. 43 hits on January 1, 1970
+#: yourls-infos.php:380
+#, php-format
+msgid "<strong>%1$s</strong> hit on %2$s"
+msgid_plural "<strong>%1$s</strong> hits on %2$s"
+msgstr[0] "<strong>%1$s</strong> treff på %2$s"
+msgstr[1] "<strong>%1$s</strong> treff på %2$s"
+
+#: yourls-infos.php:381 yourls-infos.php:443
+msgid "Click for more details"
+msgstr "Klikk for flere detaljer"
+
+#: yourls-infos.php:387 yourls-infos.php:390
+#, php-format
+msgid "Year %s"
+msgstr "År %s"
+
+#: yourls-infos.php:409 yourls-infos.php:447
+#, php-format
+msgid "1 hit"
+msgid_plural "%s hits"
+msgstr[0] "1 treff"
+msgstr[1] "%s treff"
+
+#: yourls-infos.php:426
+msgid "No traffic yet. Get some clicks first!"
+msgstr "Ingen trafikk. Skaff noen klikk først!"
+
+#: yourls-infos.php:441
+msgid "Top 5 countries"
+msgstr "Topp 5 land"
+
+#: yourls-infos.php:454
+msgid "Overall traffic"
+msgstr "Trafikk totalt"
+
+#: yourls-infos.php:463
+msgid "No country data."
+msgstr "Ingen data om land."
+
+#: yourls-infos.php:478
+msgid "Referrer shares"
+msgstr "Henvisningsdelinger"
+
+#: yourls-infos.php:481
+msgid "Others"
+msgstr "Andre"
+
+#: yourls-infos.php:485 yourls-infos.php:518
+msgid "Referrers"
+msgstr "Henvisere"
+
+#: yourls-infos.php:492 yourls-infos.php:502
+msgid "(details)"
+msgstr "(detaljer)"
+
+#: yourls-infos.php:502
+msgid "Various:"
+msgstr "Diverse:"
+
+#: yourls-infos.php:516
+msgid "Direct vs Referrer Traffic"
+msgstr "Direkte vs Henviser-trafikk"
+
+#: yourls-infos.php:518
+msgid "Direct"
+msgstr "Direkte"
+
+#: yourls-infos.php:520
+msgid "Direct traffic:"
+msgstr "Direkte trafikk:"
+
+#: yourls-infos.php:520 yourls-infos.php:521
+#, php-format
+msgid "<strong>%s</strong> hit"
+msgid_plural "<strong>%s</strong> hits"
+msgstr[0] "<strong>%s</strong> treff"
+msgstr[1] "<strong>%s</strong> treff"
+
+#: yourls-infos.php:521
+msgid "Referrer traffic:"
+msgstr "Henvisningstrafikk:"
+
+#: yourls-infos.php:530
+msgid "No referrer data."
+msgstr "Ingen henvisningsdata."
+
+#: yourls-infos.php:541
+msgid "Short link"
+msgstr "Kort link"
+
+#: yourls-infos.php:541 includes/functions-html.php:359
+msgid "Quick Share"
+msgstr "Kjapp deling"
+
+#: admin/index.php:13 admin/index.php:38 admin/index.php:97
+#: includes/functions-html.php:210 includes/functions-html.php:222
+msgid "URL"
+msgstr "URL"
+
+#: admin/index.php:42 includes/functions-html.php:211
+#: includes/functions-html.php:464
+msgid "Title"
+msgstr "Tittel"
+
+#: admin/index.php:46 admin/index.php:105
+msgid "IP Address"
+msgstr "IP-adresse"
+
+#: admin/index.php:50
+#, php-format
+msgid "Searching for <strong>%1$s</strong> in <strong>%2$s</strong>."
+msgstr "Søker etter <strong>%1$s</strong> i <strong>%2$s</strong>."
+
+#: admin/index.php:101 includes/functions-html.php:223
+#: includes/functions-html.php:628
+msgid "Date"
+msgstr "Dato"
+
+#: admin/index.php:109 includes/functions-html.php:225
+#: includes/functions-html.php:630
+msgid "Clicks"
+msgstr "Klikk"
+
+#: admin/index.php:187 admin/index.php:198 admin/index.php:209
+#, php-format
+msgid "Short URL created, but could not redirect to %s !"
+msgstr "Kort URL laget, men kunne ikke videresende til %s !"
+
+#: admin/index.php:219
+msgid "Unknown \"Share\" bookmarklet"
+msgstr "Ukjent \"Dele\"-bokmerke"
+
+#: admin/index.php:272
+#, php-format
+msgid ""
+"Display <strong>%1$s</strong> to <strong class=\"increment\">%2$s</strong> "
+"of <strong class=\"increment\">%3$s</strong> URLs"
+msgstr ""
+"Vis <strong>%1$s</strong> til <strong class=\"increment\">%2$s</strong> av "
+"<strong class=\"increment\">%3$s</strong> URLer"
+
+#: admin/index.php:274
+#, php-format
+msgid "counting <strong>1</strong> click"
+msgid_plural "counting <strong>%s</strong> clicks"
+msgstr[0] "teller <strong>1</strong> klikk"
+msgstr[1] "teller <strong>%s</strong> klikk"
+
+#: admin/index.php:277
+#, php-format
+msgid ""
+"Overall, tracking <strong class=\"increment\">%1$s</strong> links, <strong>"
+"%2$s</strong> clicks, and counting!"
+msgstr ""
+"Sporer <strong class=\"increment\">%1$s</strong> linker og <strong>%2$s</"
+"strong> klikk!"
+
+#: admin/index.php:337
+msgid "No URL"
+msgstr "Ingen URL"
+
+#: admin/install.php:13 admin/install.php:18
+#, php-format
+msgid "%s version is too old. Ask your server admin for an upgrade."
+msgstr "%s versjonen er for gammel. Be din server admin om å oppgradere."
+
+#: admin/install.php:24
+msgid "YOURLS already installed."
+msgstr "YOURLS er allerede installert."
+
+#: admin/install.php:35
+msgid "File <tt>.htaccess</tt> successfully created/updated."
+msgstr "File <tt>.htaccess</tt> ble laget/oppdatert."
+
+#: admin/install.php:37
+msgid ""
+"Could not write file <tt>.htaccess</tt> in YOURLS root directory. You will "
+"have to do it manually. See <a href=\"http://yourls.org/htaccess\">how</a>."
+msgstr ""
+"Kunne ikke skrive til filen <tt>.htaccess</tt> i YOURLS' rotmappe. Du blir "
+"derfor nødt til å gjøre det manuelt. Se hvordan <a href=\"http://yourls.org/"
+"htaccess\">her</a>."
+
+#: admin/install.php:50 admin/install.php:71
+msgid "Install YOURLS"
+msgstr "Installer YOURLS"
+
+#: admin/install.php:74
+msgid "YOURLS Administration Page"
+msgstr "YOURLS adminside"
+
+#: admin/plugins.php:38
+msgid "Unsupported action"
+msgstr "Handlingen støttes ikke"
+
+#: admin/plugins.php:42
+msgid "No plugin specified, or not a valid plugin"
+msgstr "Tillegget har ikke blitt spesifisert, eller er ikke et gyldig tillegg"
+
+#: admin/plugins.php:51
+msgid "Plugin has been activated"
+msgstr "Tillegget har blitt aktiver"
+
+#: admin/plugins.php:53
+msgid "Plugin has been deactivated"
+msgstr "Tillegget har blitt deaktivert"
+
+#: admin/plugins.php:58 includes/functions-html.php:745
+msgid "Manage Plugins"
+msgstr "Administrer tillegg"
+
+#: admin/plugins.php:63
+msgid "Plugins"
+msgstr "Tillegg"
+
+#: admin/plugins.php:70
+#, php-format
+msgid "%s plugin"
+msgid_plural "%s plugins"
+msgstr[0] "%s tillegg"
+msgstr[1] "%s tillegg"
+
+#. //translators: "you have '3 plugins' installed and '1' activated"
+#: admin/plugins.php:74
+#, php-format
+msgid ""
+"You currently have <strong>%1$s</strong> installed, and <strong>%2$s</"
+"strong> activated"
+msgstr ""
+"Du har for øyeblikket installert <strong>%1$s</strong> og aktivert <strong>"
+"%2$s</strong>"
+
+#: admin/plugins.php:79
+msgid "Plugin Name"
+msgstr "Navn på tillegg"
+
+#: admin/plugins.php:80
+msgid "Version"
+msgstr "Versjon"
+
+#: admin/plugins.php:81
+msgid "Description"
+msgstr "Beskrivelse"
+
+#: admin/plugins.php:82
+msgid "Author"
+msgstr "Forfatter"
+
+#: admin/plugins.php:83
+msgid "Action"
+msgstr "Handling"
+
+#: admin/plugins.php:118
+msgid "Deactivate"
+msgstr "Deaktiver"
+
+#: admin/plugins.php:122
+msgid "Activate"
+msgstr "Aktiver"
+
+#: admin/plugins.php:133
+#, php-format
+msgid "plugin file location: %s"
+msgstr "filplassering for tillegg: %s"
+
+#: admin/plugins.php:150
+msgid "Toggle active/inactive plugins"
+msgstr "Veksle mellom aktive/inaktive tillegg"
+
+#: admin/plugins.php:157
+msgid ""
+"If something goes wrong after you activate a plugin and you cannot use "
+"YOURLS or access this page, simply rename or delete its directory, or rename "
+"the plugin file to something different than <code>plugin.php</code>."
+msgstr ""
+"Hvis noe går galt etter at du har aktivert et tillegg og du ikke lenger får "
+"brukt YOURLS eller får tilgang til denne siden, kan du endre navnet på eller "
+"slette mappen til tillegget eller endre navnet på tilleggsfilen til noe "
+"annet enn <code>plugin.php</code>."
+
+#: admin/plugins.php:159
+msgid "More plugins"
+msgstr "Flere tillegg"
+
+#: admin/plugins.php:161
+msgid ""
+"For more plugins, head to the official <a href=\"http://yourls.org/pluginlist"
+"\">Plugin list</a>."
+msgstr ""
+"For flere tillegg, sjekk ut den offisielle <a href=\"http://yourls.org/"
+"pluginlist\">tilleggslisten</a>."
+
+#: admin/tools.php:6
+msgid "Cool YOURLS Tools"
+msgstr "Kule verktøy til YOURLS"
+
+#: admin/tools.php:13
+msgid "Bookmarklets"
+msgstr "Snarveier"
+
+#: admin/tools.php:15
+msgid ""
+"YOURLS comes with handy <span>bookmarklets</span> for easier link shortening "
+"and sharing."
+msgstr ""
+"YOURLS kommer med hendige <span>snarveier</span> for å kunne forkorte og "
+"dele linker enklere."
+
+#: admin/tools.php:17
+msgid "Standard or Instant, Simple or Custom"
+msgstr "Standard eller Umiddelbar, Enkel eller Tilpasset"
+
+#: admin/tools.php:20
+msgid ""
+"The <span>Standard Bookmarklets</span> will take you to a page where you can "
+"easily edit or delete your brand new short URL."
+msgstr ""
+"<span>Standard snarveier</span> tar deg til en side hvor du enkelt kan "
+"redigere eller slette din flunkende, nye korte URL."
+
+#: admin/tools.php:22
+msgid ""
+"The <span>Instant Bookmarklets</span> will pop the short URL without leaving "
+"the page you are viewing."
+msgstr ""
+"<span>Umiddelbare snarveier</span> lager en rask kort URL uten å forlate "
+"siden du ser på."
+
+#: admin/tools.php:24
+msgid ""
+"The <span>Simple Bookmarklets</span> will generate a short URL with a random "
+"or sequential keyword."
+msgstr ""
+"<span>Enkle snarveier</span> lager en kort URL med et tilfeldig nøkkelord."
+
+#: admin/tools.php:26
+msgid ""
+"The <span>Custom Keyword Bookmarklets</span> will prompt you for a custom "
+"keyword first."
+msgstr "<span>Tilpassede snarveier</span> spørre deg om et nøkkelord først."
+
+#: admin/tools.php:30
+msgid ""
+"If you want to share a description along with the link you're shortening, "
+"simply <span>select text</span> on the page you're viewing before clicking "
+"on your bookmarklet link"
+msgstr ""
+"Hvis du vil dele en beskrivelse sammen med linken du forkorter, trenger du "
+"kun å <span>markere tekst</span> på siden du er på før du klikker på "
+"snarveien"
+
+#: admin/tools.php:33
+msgid "The Bookmarklets"
+msgstr "Snarveiene"
+
+#: admin/tools.php:35 admin/tools.php:62
+msgid "Click and drag links to your toolbar (or right-click and bookmark it)"
+msgstr ""
+"Klikk og dra linker til bokmerkelinken (eller høyreklikk og bokmerk den)"
+
+#: admin/tools.php:41
+msgid "Standard (new page)"
+msgstr "Standard (ny side)"
+
+#: admin/tools.php:42
+msgid "Instant (popup)"
+msgstr "Umiddelbar (popup)"
+
+#: admin/tools.php:47
+msgid "Simple"
+msgstr "Enkel"
+
+#: admin/tools.php:48 admin/tools.php:49 admin/tools.php:53 admin/tools.php:54
+#: admin/tools.php:68 admin/tools.php:70 admin/tools.php:72
+msgid "Drag to your toolbar!"
+msgstr "Dra til bokmerkelinjen!"
+
+#: admin/tools.php:48
+msgid "Shorten"
+msgstr "Forkort"
+
+#: admin/tools.php:49
+msgid "Instant Shorten"
+msgstr "Umiddelbar forkortelse"
+
+#: admin/tools.php:52
+msgid "Custom Keyword"
+msgstr "Tilpasset nøkkelord"
+
+#: admin/tools.php:53
+msgid "Custom shorten"
+msgstr "Tilpasset forkortning"
+
+#: admin/tools.php:54
+msgid "Instant Custom Shorten"
+msgstr "Umiddelbar tilpasset forkortning"
+
+#: admin/tools.php:59
+msgid "Social Bookmarklets"
+msgstr "Snarveier for sosiale medier"
+
+#: admin/tools.php:61
+msgid "Create a short URL and share it on social networks, all in one click!"
+msgstr "Lag en kort URL og del den på sosiale medier, alt med ett klikk!"
+
+#: admin/tools.php:64
+msgid "Shorten and share:"
+msgstr "Forkort og del:"
+
+#: admin/tools.php:68
+msgid "YOURLS &amp; Facebook"
+msgstr "YOURLS &amp; Facebook"
+
+#: admin/tools.php:70
+msgid "YOURLS &amp; Twitter"
+msgstr "YOURLS &amp; Twitter"
+
+#: admin/tools.php:72
+msgid "YOURLS &amp; Tumblr"
+msgstr "YOURLS &amp; Tumblr"
+
+#: admin/tools.php:80
+msgid "Prefix-n-Shorten"
+msgstr "Prefiksér-og-forkort"
+
+#: admin/tools.php:82
+#, php-format
+msgid ""
+"When viewing a page, you can also prefix its full URL: just head to your "
+"browser's address bar, add \"<span>%s</span>\" to the beginning of the "
+"current URL (right before its 'http://' part) and hit enter."
+msgstr ""
+"Når du ser på en side, kan du også sette et prefiks på URLen: gå til "
+"adresselinjen, legg til \"<span>%s</span>\" på begynnelsen av URLen (rett "
+"før 'http(s)://') og trykk enter."
+
+#: admin/tools.php:85
+msgid ""
+"Note: this will probably not work if your web server is running on Windows"
+msgstr ""
+"Merk: dette vil mest sannsynligvis ikke fungere hvis web serveren din kjøres "
+"på Windows"
+
+#: admin/tools.php:87
+msgid " (which seems to be the case here)"
+msgstr " (som ser ut til å være tilfelle her)"
+
+#: admin/tools.php:93
+msgid "Secure passwordless API call"
+msgstr "Sikkert API-oppslag uten passord"
+
+#: admin/tools.php:96
+msgid ""
+"YOURLS allows API calls the old fashioned way, using <tt>username</tt> and "
+"<tt>password</tt> parameters."
+msgstr ""
+"YOURLS tillater API-oppslag på den gode, gammeldagse måten, ved bruk av "
+"<tt>brukernavn</tt> og <tt>passord</tt> som parametere."
+
+#: admin/tools.php:98
+msgid ""
+"If you're worried about sending your credentials into the wild, you can also "
+"make API calls without using your login or your password, using a secret "
+"signature token."
+msgstr ""
+"Hvis du ikke ønsker å sende brukerinfoen din fritt ut, kan du også gjøre API-"
+"oppslag uten å bruke brukernavn og passord, og bruke en hemmelig signatur-"
+"nøkkel istedet."
+
+#: admin/tools.php:102
+#, php-format
+msgid "Your secret signature token: <strong><code>%s</code></strong>"
+msgstr "Din hemmelige signatur-nøkkel: <strong><code>%s</code></strong>"
+
+#: admin/tools.php:103
+msgid "(It's a secret. Keep it secret) "
+msgstr "(Denne er hemmelig. Ikke røp den) "
+
+#: admin/tools.php:106
+msgid ""
+"This signature token can only be used with the API, not with the admin "
+"interface."
+msgstr ""
+"Denne signatur-nøkkelen kan bare brukes gjennom APIet, ikke på "
+"administrasjons-siden."
+
+#: admin/tools.php:109
+msgid "Usage of the signature token"
+msgstr "Bruk av signatur-nøkkelen"
+
+#: admin/tools.php:110
+msgid "Simply use parameter <tt>signature</tt> in your API requests. Example:"
+msgstr ""
+"Bare bruk parameteren <tt>signature</tt> in ditt API-oppslag. Eksempel:"
+
+#: admin/tools.php:114
+msgid "Usage of a time limited signature token"
+msgstr "Bruk av en tidsbegrenset signatur-nøkkel"
+
+#: admin/tools.php:117 admin/tools.php:119
+msgid "actual value:"
+msgstr "faktisk verdi:"
+
+#: admin/tools.php:122
+msgid ""
+"Now use parameters <tt>signature</tt> and <tt>timestamp</tt> in your API "
+"requests. Example:"
+msgstr ""
+"Nå kan du bruke parameterne <tt>signature</tt> og <tt>timestamp</tt> i ditt "
+"API-oppslag. Eksempel:"
+
+#: admin/tools.php:124
+msgid "Actual values:"
+msgstr "Faktiske verdier:"
+
+#: admin/tools.php:126
+#, php-format
+msgid "This URL would be valid for only %s seconds"
+msgstr "Denne URLen ville kun vært gyldig i %s sekunder"
+
+#: admin/tools.php:130
+#, php-format
+msgid "See the <a href=\"%s\">API documentation</a> for more"
+msgstr "Sjekk ut <a href=\"%s\">API-dokumentasjon</a> for mer"
+
+#: admin/upgrade.php:9 admin/upgrade.php:13
+msgid "Upgrade YOURLS"
+msgstr "Oppgradér YOURLS"
+
+#: admin/upgrade.php:18
+#, php-format
+msgid "Upgrade not required. Go <a href=\"%s\">back to play</a>!"
+msgstr ""
+"Oppgraderinger ikke nødvendig. Gå <a href=\"%s\">tilbake for å leke</a>!"
+
+#: admin/upgrade.php:51
+msgid "Your current installation needs to be upgraded."
+msgstr "Din nåværende installasjon må oppgraderes."
+
+#: admin/upgrade.php:52
+msgid ""
+"Please, pretty please, it is recommended that you <strong>backup</strong> "
+"your database<br/>(you should do this regularly anyway)"
+msgstr ""
+"Det anbefales på det sterkeste at du tar <strong>backup</strong> av "
+"databasen din<br/>(du burde gjøre dette jevnlig uansett)"
+
+#: admin/upgrade.php:53
+msgid ""
+"Nothing awful <em>should</em> happen, but this doesn't mean it <em>won't</"
+"em> happen, right? ;)"
+msgstr ""
+"Ikke noe fælt <em>burde kunne</em> skje, men det betyr ikke at det "
+"<em>aldri</em> kan skje, ikke sant? ;)"
+
+#: admin/upgrade.php:54
+msgid ""
+"On every step, if <span class='error'>something goes wrong</span>, you'll "
+"see a message and hopefully a way to fix."
+msgstr ""
+"Hvis <span class='error'>noe går galt</span> vil du for hvert skritt få en "
+"feilmelding og forhåpentligvis et forslag til løsning."
+
+#: admin/upgrade.php:55
+msgid ""
+"If everything goes too fast and you cannot read, <span class=\"success"
+"\">good for you</span>, let it go :)"
+msgstr ""
+"Hvis alt går for raskt og du ikke kan lese, <span class=\"success\">bra for "
+"deg</span>, bare la det gå :)"
+
+#: admin/upgrade.php:56
+msgid "Once you are ready, press \"Upgrade\" !"
+msgstr "Trykk på \"Oppgrader\" når du er klar!"
+
+#: admin/upgrade.php:65
+msgid "Upgrade"
+msgstr "Oppgrader"
+
+#: admin/upgrade.php:77
+msgid "Your installation is now up to date ! "
+msgstr "Installasjonen din er nå oppdatert! "
+
+#: admin/upgrade.php:78
+#, php-format
+msgid "Go back to <a href=\"%s\">the admin interface</a>"
+msgstr "Gå tilbake til <a href=\"%s\"> adminsiden"
+
+#: includes/auth.php:53
+#, php-format
+msgid "Could not auto-encrypt passwords. Error was: \"%s\"."
+msgstr "Kunne ikke kryptere passordene automatisk. Feilmeldingen var: \"%s\"."
+
+#: includes/auth.php:55
+#, php-format
+msgid "<a href=\"%s\">Get help</a>."
+msgstr "<a href=\"%s\">Skaff hjelp</a>."
+
+#: includes/auth.php:57
+#, php-format
+msgid "<a href=\"%s\">Click here</a> to dismiss this message for one week."
+msgstr "<a href=\"%s\">Klikk her</a> for å fjerne denne beskjeden i én uke."
+
+#: includes/class-mysql.php:39
+msgid ""
+"YOURLS requires the mysql, mysqli or pdo_mysql PHP extension. No extension "
+"found. Check your server config, or contact your host."
+msgstr ""
+"YOURLS krever mysql, mysqli eller pdo_mysql PHP tillegget. Ingen tillegg "
+"funnet. Sjekk din serverkonfigurasjon eller kontakt din vert."
+
+#: includes/class-mysql.php:40 includes/functions-install.php:16
+#: includes/functions.php:438 includes/functions.php:450
+msgid "Fatal error"
+msgstr "Fatal feil"
+
+#: includes/functions-auth.php:26
+msgid "Logged out successfully"
+msgstr "Logget ut"
+
+#: includes/functions-auth.php:102
+msgid "Invalid username or password"
+msgstr "Ugyldig brukernavn eller passord"
+
+#: includes/functions-auth.php:104
+msgid "Please log in"
+msgstr "Vennligst logg inn"
+
+#: includes/functions-html.php:142
+#, php-format
+msgid "1 query"
+msgid_plural "%s queries"
+msgstr[0] "1 forespørsel"
+msgstr[1] "%s forespørsler"
+
+#: includes/functions-html.php:147
+#, php-format
+msgid "Powered by %s"
+msgstr "Drives av %s"
+
+#: includes/functions-html.php:175
+msgid "Enter the URL"
+msgstr "Skriv inn URL"
+
+#: includes/functions-html.php:176
+msgid "Optional "
+msgstr "Valgfritt "
+
+#: includes/functions-html.php:176
+msgid "Custom short URL"
+msgstr "Tilpasset kort URL"
+
+#: includes/functions-html.php:178
+msgid "Shorten The URL"
+msgstr "Forkort URLen"
+
+#: includes/functions-html.php:212 includes/functions-html.php:224
+#: includes/functions-html.php:629
+msgid "IP"
+msgstr "IP"
+
+#. //translators: "Search for <input field with text to search> in <select dropdown with URL, title...>"
+#: includes/functions-html.php:216
+#, php-format
+msgid "Search for %1$s in %2$s"
+msgstr "Søk etter %1$s i %2$s"
+
+#: includes/functions-html.php:230
+msgid "Ascending"
+msgstr "Stigende"
+
+#: includes/functions-html.php:231
+msgid "Descending"
+msgstr "Synkende"
+
+#. //translators: "Order by <criteria dropdown (date, clicks...)> in <order dropdown (Descending or Ascending)>"
+#: includes/functions-html.php:235
+#, php-format
+msgid "Order by %1$s %2$s"
+msgstr "Sorter etter %1$s %2$s"
+
+#. //translators: "Show <text field> rows"
+#: includes/functions-html.php:240
+#, php-format
+msgid "Show %s rows"
+msgstr "Vis %s rader"
+
+#: includes/functions-html.php:245
+msgid "more"
+msgstr "mer"
+
+#: includes/functions-html.php:246
+msgid "less"
+msgstr "mindre"
+
+#. //translators: "Show links with <more/less> than <text field> clicks"
+#: includes/functions-html.php:251
+#, php-format
+msgid "Show links with %1$s than %2$s clicks"
+msgstr "Vis linker med %1$s enn %2$s klikk"
+
+#: includes/functions-html.php:256
+msgid "before"
+msgstr "før"
+
+#: includes/functions-html.php:257
+msgid "after"
+msgstr "etter"
+
+#: includes/functions-html.php:258
+msgid "between"
+msgstr "mellom"
+
+#. //translators: "Show links created <before/after/between> <date input> <"and" if applicable> <date input if applicable>"
+#: includes/functions-html.php:265
+#, php-format
+msgid "Show links created %1$s %2$s %3$s %4$s"
+msgstr "Vis linker laget %1$s %2$s %3$s %4$s"
+
+#: includes/functions-html.php:269
+msgid "Search"
+msgstr "Søk"
+
+#: includes/functions-html.php:271
+msgid "Clear"
+msgstr "Rydd"
+
+#: includes/functions-html.php:291
+#, php-format
+msgid "1 page"
+msgid_plural "%s pages"
+msgstr[0] "1 side"
+msgstr[1] "%s sider"
+
+#: includes/functions-html.php:299 includes/functions-html.php:313
+msgid "Go to First Page"
+msgstr "Gå til den første siden"
+
+#: includes/functions-html.php:299
+msgid "&laquo; First"
+msgstr "&laquo; Første"
+
+#: includes/functions-html.php:313
+msgid "Last &raquo;"
+msgstr "Siste &raquo;"
+
+#: includes/functions-html.php:357
+msgid "Your short link"
+msgstr "Din kortlenke"
+
+#: includes/functions-html.php:388
+msgid "Long link"
+msgstr "Lang lenke"
+
+#: includes/functions-html.php:390 includes/functions-html.php:499
+#: includes/functions-html.php:500
+msgid "Stats"
+msgstr "Statistikk"
+
+#: includes/functions-html.php:404
+msgid "Share with"
+msgstr "Del med"
+
+#: includes/functions-html.php:405
+msgid "Tweet this!"
+msgstr "Tvitre dette!"
+
+#: includes/functions-html.php:406
+msgid "Share on Facebook"
+msgstr "Del på Facebook"
+
+#: includes/functions-html.php:407
+msgid "Share on Friendfeed"
+msgstr "Del på Friendfeed"
+
+#: includes/functions-html.php:464
+msgid "Save"
+msgstr "Lagre"
+
+#: includes/functions-html.php:464
+msgid "Save new values"
+msgstr "Lagre nye verdier"
+
+#: includes/functions-html.php:464
+msgid "Cancel"
+msgstr "Avbryt"
+
+#: includes/functions-html.php:464
+msgid "Cancel editing"
+msgstr "Avbryt redigering"
+
+#: includes/functions-html.php:466
+msgid "Error, URL not found"
+msgstr "Feil, URL finnes ikke"
+
+#: includes/functions-html.php:512 includes/functions-html.php:513
+msgid "Edit"
+msgstr "Rediger"
+
+#: includes/functions-html.php:519 includes/functions-html.php:520
+msgid "Delete"
+msgstr "Slett"
+
+#: includes/functions-html.php:541
+msgid "Not a common link"
+msgstr "Ikke en vanlig lenke"
+
+#: includes/functions-html.php:627
+msgid "Original URL"
+msgstr "Original URL"
+
+#: includes/functions-html.php:631
+msgid "Actions"
+msgstr "Handlinger"
+
+#: includes/functions-html.php:697
+msgid "Username"
+msgstr "Brukernavn"
+
+#: includes/functions-html.php:701
+msgid "Password"
+msgstr "Passord"
+
+#: includes/functions-html.php:705
+msgid "Login"
+msgstr "Logg inn"
+
+#: includes/functions-html.php:723 user/themes/full-bootstrap/theme.php:87
+#, php-format
+msgid "Hello <strong>%s</strong>"
+msgstr "Hei <strong>%s</strong>"
+
+#: includes/functions-html.php:723 user/themes/full-bootstrap/theme.php:87
+msgid "Logout"
+msgstr "Logg ut"
+
+#: includes/functions-html.php:727
+msgid "Help"
+msgstr "Hjelp"
+
+#: includes/functions-html.php:734
+msgid "Go to the admin interface"
+msgstr "Gå til adminsiden"
+
+#: includes/functions-html.php:735
+msgid "Admin interface"
+msgstr "Adminside"
+
+#: includes/functions-html.php:741
+msgid "Tools"
+msgstr "Verktøy"
+
+#: includes/functions-html.php:867 includes/functions-html.php:872
+msgid "Today"
+msgstr "I dag"
+
+#: includes/functions-html.php:868 includes/functions-html.php:873
+msgid "Close"
+msgstr "Lukk"
+
+#: includes/functions-html.php:889
+#, php-format
+msgid "<a href=\"%s\">YOURLS version %s</a> is available. Please update!"
+msgstr ""
+"<a href=\"%s\">YOURLS versjon %s</a> er tilgjengelig. Vennligst oppdater!"
+
+#: includes/functions-install.php:16 includes/functions.php:438
+msgid "Incorrect DB config, or could not connect to DB"
+msgstr ""
+"Ukorrekt database-konfigurasjon, eller klarte ikke å koble til database"
+
+#: includes/functions-install.php:241
+#, php-format
+msgid "Table '%s' created."
+msgstr "Tabell '%s' opprettet."
+
+#: includes/functions-install.php:243
+#, php-format
+msgid "Error creating table '%s'."
+msgstr "Feil ved oppretting av tabell '%s'."
+
+#: includes/functions-install.php:249
+msgid "Could not initialize options"
+msgstr "Klarte ikke å initialisere innstillinger"
+
+#: includes/functions-install.php:253
+msgid "Could not insert sample short URLs"
+msgstr "Kunne ikke sette inn test URLer"
+
+#: includes/functions-install.php:257
+msgid "YOURLS tables successfully created."
+msgstr "YOURLS tabellene ble opprettet."
+
+#: includes/functions-install.php:259
+msgid "Error creating YOURLS tables."
+msgstr "Feil ved oppretting av YOURLS tabeller."
+
+#. //translators: weekday
+#: includes/functions-l10n.php:795 includes/functions-l10n.php:805
+#: includes/functions-l10n.php:818
+msgid "Sunday"
+msgstr "Søndag"
+
+#. //translators: weekday
+#: includes/functions-l10n.php:796 includes/functions-l10n.php:806
+#: includes/functions-l10n.php:819
+msgid "Monday"
+msgstr "Mandag"
+
+#. //translators: weekday
+#: includes/functions-l10n.php:797 includes/functions-l10n.php:807
+#: includes/functions-l10n.php:820
+msgid "Tuesday"
+msgstr "Tirsdag"
+
+#. //translators: weekday
+#: includes/functions-l10n.php:798 includes/functions-l10n.php:808
+#: includes/functions-l10n.php:821
+msgid "Wednesday"
+msgstr "Onsdag"
+
+#. //translators: weekday
+#: includes/functions-l10n.php:799 includes/functions-l10n.php:809
+#: includes/functions-l10n.php:822
+msgid "Thursday"
+msgstr "Torsdag"
+
+#. //translators: weekday
+#: includes/functions-l10n.php:800 includes/functions-l10n.php:810
+#: includes/functions-l10n.php:823
+msgid "Friday"
+msgstr "Fredag"
+
+#. //translators: weekday
+#: includes/functions-l10n.php:801 includes/functions-l10n.php:811
+#: includes/functions-l10n.php:824
+msgid "Saturday"
+msgstr "Lørdag"
+
+#. //translators: one-letter abbreviation of the weekday
+#: includes/functions-l10n.php:805
+msgid "S_Sunday_initial"
+msgstr "S"
+
+#. //translators: one-letter abbreviation of the weekday
+#: includes/functions-l10n.php:806
+msgid "M_Monday_initial"
+msgstr "M"
+
+#. //translators: one-letter abbreviation of the weekday
+#: includes/functions-l10n.php:807
+msgid "T_Tuesday_initial"
+msgstr "T"
+
+#. //translators: one-letter abbreviation of the weekday
+#: includes/functions-l10n.php:808
+msgid "W_Wednesday_initial"
+msgstr "O"
+
+#. //translators: one-letter abbreviation of the weekday
+#: includes/functions-l10n.php:809
+msgid "T_Thursday_initial"
+msgstr "T"
+
+#. //translators: one-letter abbreviation of the weekday
+#: includes/functions-l10n.php:810
+msgid "F_Friday_initial"
+msgstr "F"
+
+#. //translators: one-letter abbreviation of the weekday
+#: includes/functions-l10n.php:811
+msgid "S_Saturday_initial"
+msgstr "L"
+
+#. //translators: three-letter abbreviation of the weekday
+#: includes/functions-l10n.php:818
+msgid "Sun"
+msgstr "Søn"
+
+#. //translators: three-letter abbreviation of the weekday
+#: includes/functions-l10n.php:819
+msgid "Mon"
+msgstr "Man"
+
+#. //translators: three-letter abbreviation of the weekday
+#: includes/functions-l10n.php:820
+msgid "Tue"
+msgstr "Tir"
+
+#. //translators: three-letter abbreviation of the weekday
+#: includes/functions-l10n.php:821
+msgid "Wed"
+msgstr "Ons"
+
+#. //translators: three-letter abbreviation of the weekday
+#: includes/functions-l10n.php:822
+msgid "Thu"
+msgstr "Tor"
+
+#. //translators: three-letter abbreviation of the weekday
+#: includes/functions-l10n.php:823
+msgid "Fri"
+msgstr "Fre"
+
+#. //translators: three-letter abbreviation of the weekday
+#: includes/functions-l10n.php:824
+msgid "Sat"
+msgstr "Lør"
+
+#. //translators: month name
+#: includes/functions-l10n.php:827 includes/functions-l10n.php:842
+msgid "January"
+msgstr "Januar"
+
+#. //translators: month name
+#: includes/functions-l10n.php:828 includes/functions-l10n.php:843
+msgid "February"
+msgstr "Februar"
+
+#. //translators: month name
+#: includes/functions-l10n.php:829 includes/functions-l10n.php:844
+msgid "March"
+msgstr "Mars"
+
+#. //translators: month name
+#: includes/functions-l10n.php:830 includes/functions-l10n.php:845
+msgid "April"
+msgstr "April"
+
+#. //translators: month name
+#: includes/functions-l10n.php:831 includes/functions-l10n.php:846
+msgid "May"
+msgstr "Mai"
+
+#. //translators: month name
+#: includes/functions-l10n.php:832 includes/functions-l10n.php:847
+msgid "June"
+msgstr "Juni"
+
+#. //translators: month name
+#: includes/functions-l10n.php:833 includes/functions-l10n.php:848
+msgid "July"
+msgstr "Juli"
+
+#. //translators: month name
+#: includes/functions-l10n.php:834 includes/functions-l10n.php:849
+msgid "August"
+msgstr "August"
+
+#. //translators: month name
+#: includes/functions-l10n.php:835 includes/functions-l10n.php:850
+msgid "September"
+msgstr "September"
+
+#. //translators: month name
+#: includes/functions-l10n.php:836 includes/functions-l10n.php:851
+msgid "October"
+msgstr "Oktober"
+
+#. //translators: month name
+#: includes/functions-l10n.php:837 includes/functions-l10n.php:852
+msgid "November"
+msgstr "November"
+
+#. //translators: month name
+#: includes/functions-l10n.php:838 includes/functions-l10n.php:853
+msgid "December"
+msgstr "Desember"
+
+#. //translators: three-letter abbreviation of the month
+#: includes/functions-l10n.php:842
+msgid "Jan_January_abbreviation"
+msgstr "Jan"
+
+#. //translators: three-letter abbreviation of the month
+#: includes/functions-l10n.php:843
+msgid "Feb_February_abbreviation"
+msgstr "Feb"
+
+#. //translators: three-letter abbreviation of the month
+#: includes/functions-l10n.php:844
+msgid "Mar_March_abbreviation"
+msgstr "Mar"
+
+#. //translators: three-letter abbreviation of the month
+#: includes/functions-l10n.php:845
+msgid "Apr_April_abbreviation"
+msgstr "Apr"
+
+#. //translators: three-letter abbreviation of the month
+#: includes/functions-l10n.php:846
+msgid "May_May_abbreviation"
+msgstr "Mai"
+
+#. //translators: three-letter abbreviation of the month
+#: includes/functions-l10n.php:847
+msgid "Jun_June_abbreviation"
+msgstr "Jun"
+
+#. //translators: three-letter abbreviation of the month
+#: includes/functions-l10n.php:848
+msgid "Jul_July_abbreviation"
+msgstr "Jul"
+
+#. //translators: three-letter abbreviation of the month
+#: includes/functions-l10n.php:849
+msgid "Aug_August_abbreviation"
+msgstr "Aug"
+
+#. //translators: three-letter abbreviation of the month
+#: includes/functions-l10n.php:850
+msgid "Sep_September_abbreviation"
+msgstr "Sep"
+
+#. //translators: three-letter abbreviation of the month
+#: includes/functions-l10n.php:851
+msgid "Oct_October_abbreviation"
+msgstr "Okt"
+
+#. //translators: three-letter abbreviation of the month
+#: includes/functions-l10n.php:852
+msgid "Nov_November_abbreviation"
+msgstr "Nov"
+
+#. //translators: three-letter abbreviation of the month
+#: includes/functions-l10n.php:853
+msgid "Dec_December_abbreviation"
+msgstr "Des"
+
+#: includes/functions-l10n.php:860
+msgid "am"
+msgstr "am"
+
+#: includes/functions-l10n.php:861
+msgid "pm"
+msgstr "pm"
+
+#: includes/functions-l10n.php:862
+msgid "AM"
+msgstr "AM"
+
+#: includes/functions-l10n.php:863
+msgid "PM"
+msgstr "PM"
+
+#. //translators: $thousands_sep argument for http://php.net/number_format, default is ,
+#: includes/functions-l10n.php:869
+msgid "number_format_thousands_sep"
+msgstr "\\s"
+
+#. //translators: $dec_point argument for http://php.net/number_format, default is .
+#: includes/functions-l10n.php:873
+msgid "number_format_decimal_point"
+msgstr ","
+
+#. //translators: 'rtl' or 'ltr'. This sets the text direction for YOURLS.
+#: includes/functions-l10n.php:880
+msgid "ltr"
+msgstr "ltr"
+
+#: includes/functions-plugins.php:387
+msgid "Could not find and deactivated plugin :"
+msgid_plural "Could not find and deactivated plugins :"
+msgstr[0] "Kunne ikke finne og deaktivere tillegg :"
+msgstr[1] "Kunne ikke finne og deaktivere tilleggene :"
+
+#: includes/functions-plugins.php:425
+msgid "Not a valid plugin file"
+msgstr "Ikke en gyldig tillegg-fil"
+
+#: includes/functions-plugins.php:430
+msgid "Plugin already activated"
+msgstr "Tillegg er allerede aktivert"
+
+#: includes/functions-plugins.php:438
+#, php-format
+msgid "Plugin generated unexpected output. Error was: <br/><pre>%s</pre>"
+msgstr "Tillegg laget uventet resultat. Feilmeldingen var: <br/><pre>%s</pre>"
+
+#: includes/functions-plugins.php:461
+msgid "Plugin not active"
+msgstr "Tillegg ikke aktiv"
+
+#: includes/functions-plugins.php:541
+msgid ""
+"This page does not exist. Maybe a plugin you thought was activated is "
+"inactive?"
+msgstr ""
+"Denne siden eksisterer ikke. Kanskje du trodde at et tillegg var aktivert?"
+
+#: includes/functions-plugins.php:541
+msgid "Invalid link"
+msgstr "Ugyldig lenke"
+
+#: includes/functions.php:201
+msgid "Missing or malformed URL"
+msgstr "Manglende eller ugyldig URL"
+
+#: includes/functions.php:215
+msgid "URL is a short URL"
+msgstr "URLen er er kort-URL"
+
+#: includes/functions.php:247
+#, php-format
+msgid "Short URL %s already exists in database or is reserved"
+msgstr "Kort-URL %s eksisterer allerede i databasen eller er reservert"
+
+#. //translators: eg "http://someurl/ added to DB"
+#: includes/functions.php:253 includes/functions.php:275
+#, php-format
+msgid "%s added to database"
+msgstr "%s ble lagt til i databasen"
+
+#: includes/functions.php:283
+msgid "Error saving url to database"
+msgstr "Feil ved lagring av url til database"
+
+#. //translators: eg "http://someurl/ already exists"
+#: includes/functions.php:300
+#, php-format
+msgid "%s already exists in database"
+msgstr "%s eksisterer allerede i databasen"
+
+#: includes/functions.php:355
+msgid "Link updated in database"
+msgstr "Link oppdatert i databasen"
+
+#. //translators: "Error updating http://someurl/ (Shorturl: http://sho.rt/blah)"
+#: includes/functions.php:358
+#, php-format
+msgid "Error updating %s (Short URL: %s)"
+msgstr "Feil ved oppdatering av %s (Kort-URL: %s)"
+
+#: includes/functions.php:364
+msgid "URL or keyword already exists in database"
+msgstr "URL eller nøkkelord eksisterer alleredei databasen"
+
+#: includes/functions.php:761
+#, php-format
+msgid ""
+"if you are not redirected after 10 seconds, please <a href=\"%s\">click "
+"here</a>"
+msgstr ""
+"Hvis du ikke videresendes etter 10 sekunder, kan du <a href=\"%s\">klikke "
+"her</a>"
+
+#: includes/functions.php:769
+#, php-format
+msgid "Please <a href=\"%s\">click here</a>"
+msgstr "Vennligst <a href=\"%s\">klikk her</a>"
+
+#: includes/functions.php:1394
+msgid "Too many URLs added too fast. Slow down please."
+msgstr "For mange URLer ble lagt til for fort. Vennligst ro ned tempoet."
+
+#: includes/functions.php:1394
+msgid "Forbidden"
+msgstr "Forbudt"
+
+#: includes/functions.php:1673
+msgid "Unauthorized action or expired link"
+msgstr "Uautorisert handling eller utgått lenke"
+
+#: includes/functions.php:1673
+msgid "Error"
+msgstr "Feil"
+
+#: includes/functions.php:2064
+msgid "Service temporarily unavailable"
+msgstr "Tjenesten er midlertidig utilgjengelig"
+
+#: includes/functions.php:2065
+msgid "Our service is currently undergoing scheduled maintenance."
+msgstr "Tjenesten vår blir vedlikeholdt for øyeblikket."
+
+#: includes/functions.php:2066
+msgid ""
+"Things should not last very long, thank you for your patience and please "
+"excuse the inconvenience"
+msgstr ""
+"Dette burde ikke vare alt for lenge, takk for tålmodigheten og beklager "
+"ulempene"
+
+#: includes/functions.php:2186
+#, php-format
+msgid ""
+"%1$s is <strong>deprecated</strong> since version %2$s! Use %3$s instead."
+msgstr ""
+"%1$s er <strong>foreldet</strong> siden versjon %2$s! Bruk %3$s istedet."
+
+#: includes/functions.php:2188
+#, php-format
+msgid ""
+"%1$s is <strong>deprecated</strong> since version %2$s with no alternative "
+"available."
+msgstr ""
+"%1$s er <strong>foreldet</strong> siden versjon %2$s uten noen tilgjengelige "
+"alternativer."
+
+#: user/plugins/sample-toolbar/plugin.php:62
+msgid "day"
+msgid_plural "days"
+msgstr[0] "dag"
+msgstr[1] "dager"
+
+#: user/plugins/sample-toolbar/plugin.php:67
+msgid "view"
+msgid_plural "views"
+msgstr[0] "visning"
+msgstr[1] "visninger"
