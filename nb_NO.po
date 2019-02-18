@@ -316,7 +316,7 @@ msgstr "Tillegget har ikke blitt spesifisert, eller er ikke et gyldig tillegg"
 
 #: admin/plugins.php:51
 msgid "Plugin has been activated"
-msgstr "Tillegget har blitt aktiver"
+msgstr "Tillegget har blitt aktivert"
 
 #: admin/plugins.php:53
 msgid "Plugin has been deactivated"
